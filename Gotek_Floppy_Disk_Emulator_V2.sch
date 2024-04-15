@@ -1740,8 +1740,8 @@ L Gotek_Floppy_Disk_Emulator_V2:Buzzer BZ1
 U 1 1 5E8F3796
 P 1950 6750
 F 0 "BZ1" H 2102 6779 50  0000 L CNN
-F 1 "5V Active Buzzer 12mm" H 2102 6688 50  0000 L CNN
-F 2 "Gotek_Floppy_Disk_Emulator_V2:Buzzer_12x9.5RM7.6" V 1925 6850 50  0001 C CNN
+F 1 "5V Passive Buzzer 12mm" H 2102 6688 50  0000 L CNN
+F 2 "Gotek_Floppy_Disk_Emulator_V2:Buzzer_12x9.5RM6.5" V 1925 6850 50  0001 C CNN
 F 3 "~" V 1925 6850 50  0001 C CNN
 	1    1950 6750
 	1    0    0    -1  
@@ -2158,10 +2158,10 @@ Connection ~ 2350 2700
 Wire Wire Line
 	2350 2700 2600 2700
 $Comp
-L Gotek_Floppy_Disk_Emulator_V2:GNDD #PWR?
+L Gotek_Floppy_Disk_Emulator_V2:GNDD #PWR0101
 U 1 1 5FA502F4
 P 2350 3100
-F 0 "#PWR?" H 2350 2850 50  0001 C CNN
+F 0 "#PWR0101" H 2350 2850 50  0001 C CNN
 F 1 "GNDD" H 2354 2945 50  0000 C CNN
 F 2 "" H 2350 3100 50  0001 C CNN
 F 3 "" H 2350 3100 50  0001 C CNN

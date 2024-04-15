@@ -452,8 +452,8 @@
       <tstamp>5E89777C</tstamp>
     </comp>
     <comp ref="BZ1">
-      <value>5V Active Buzzer 12mm</value>
-      <footprint>Gotek_Floppy_Disk_Emulator_V2:Buzzer_12x9.5RM7.6</footprint>
+      <value>5V Passive Buzzer 12mm</value>
+      <footprint>Gotek_Floppy_Disk_Emulator_V2:Buzzer_12x9.5RM6.5</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Gotek_Floppy_Disk_Emulator_V2" part="Buzzer" description="Buzzer, polarized"/>
       <sheetpath names="/" tstamps="/"/>

@@ -1,3 +1,8 @@
+Fixed PCB from original [Gotek-Floppy-Disk-Emulator-V2](https://github.com/RichardRozehnal/Gotek-Floppy-Disk-Emulator-V2):
+* Add PCB edge cut for IDC 34-pin cable keying
+* Change Buzzer type from Active to Passive (single click on drive motor step)
+* Change "Buzzer_12x9.5RM7.6" footprint to "Buzzer_12x9.5RM6.5"
+
 # Gotek Floppy Disk Emulator V2
 
 ![Gotek Floppy Disk Emulator V2](Fotky/Gotek_V2_PCB_Top_osazeny.jpg "Gotek Floppy Disk Emulator V2")
@@ -8,7 +13,7 @@ Emulátor disketové mechaniky starých počítačů a různých zařízení. So
 
 | **Ref**                                                                                                  | **Qnty** | **Value**                   | **Cmp name**                   |
 | -------------------------------------------------------------------------------------------------------- | :------: | --------------------------- | ------------------------------ |
-| BZ1,                                                                                                     | 1        | 5V Active Buzzer 12mm       | Buzzer                         |
+| BZ1,                                                                                                     | 1        | 5V Passive Buzzer 12mm      | Buzzer                         |
 | C1, C2, C4, C7, C8, C9, C10, C12,                                                                        | 8        | 100nF                       | C                              |
 | C3, C11,                                                                                                 | 2        | 10uF                        | C                              |
 | C5, C6,                                                                                                  | 2        | 22pF                        | C                              |
